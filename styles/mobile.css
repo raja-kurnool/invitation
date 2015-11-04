@@ -1,0 +1,57 @@
+@media only screen and (max-device-width: 550px) {
+
+    .wrapper {
+        margin-bottom: 20px;
+    }
+
+    .title-content, .content {
+        padding: 20px 0px;
+        width: 90%;
+    }
+
+    .show-desktop, .show-desktop-inline {
+        display: none !important;
+    }
+
+    .show-mobile {
+        display: block !important;
+    }
+
+    .show-mobile-inline {
+        display: inline !important;
+    }
+
+    .pic.groom {
+        margin: 0 0 25px 0;
+    }
+
+    .pic.groom .about-info {
+        padding-bottom: 10px;
+    }
+
+    .pic.bride {
+        margin: 25px 0 0 0;
+    }
+
+    .pic.bride .about-info{
+        padding-top: 10px;
+    }
+
+    .header-nav {
+        font-size: 16px;
+    }
+
+    #map iframe {
+        height: 250px;
+        width: 90%;
+        padding 0 10%;
+    }
+
+    .date {
+        font-size: 30px;
+    }
+
+    .date sup {
+        font-size: 15px;
+    }
+}
